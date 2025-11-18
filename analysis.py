@@ -2,6 +2,7 @@ from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 import time
 import random
+import numpy as np
 
 bucket = "hepingbb"
 org = "my-org"
